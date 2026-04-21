@@ -1,0 +1,5 @@
+<launch>
+    <group ns="$(env VEHICLE_NAME)">
+        <node pkg="openloopsquare" name="openloopsquare" type="openloopsquare.py" output="screen"/>
+    </group>
+</launch>
