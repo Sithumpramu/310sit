@@ -18,7 +18,7 @@ class OpenLoopSquareNode:
 
         # Tune these values for 1 metre straight and 90 degree turn
         self.forward_time = 4.0
-        self.turn_time = 1.0
+        self.turn_time = 0.5
 
         rospy.on_shutdown(self.stop_robot)
 
