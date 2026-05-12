@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="my_lane_detector"
+          name="my_lane_detector"
+          type="my_lane_detector.py"
+          output="screen">
+        <param name="veh" value="srea002453" />
+    </node>
+</launch>
