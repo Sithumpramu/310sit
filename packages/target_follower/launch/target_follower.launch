@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="target_follower"
+          name="target_follower"
+          type="target_follower.py"
+          output="screen">
+        <param name="veh" value="$(env VEHICLE_NAME)" />
+    </node>
+</launch>
